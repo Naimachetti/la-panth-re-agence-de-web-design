@@ -1,0 +1,89 @@
+
+main
+{
+    text-align: center;
+}
+
+.bloc-container
+{
+    padding-left: 0;
+}
+
+.navbar-brand img
+{
+    margin-left: 1em;
+    height: 3em;
+}
+
+.navbar .nav 
+{
+    list-style: none;
+    margin-right: 22em;
+}
+
+.center-block
+{
+    width:100px;
+}
+
+.tc-white
+{
+    color: #ffffff !important;
+}
+
+.center-text 
+{
+text-align: center;
+color: #ffffff !important;
+}
+
+.hero-bloc-text
+{
+    font-size: 37px;
+}
+.container
+{
+    width: 99%;
+}
+
+label
+{
+margin-bottom: 6px;
+}
+
+.form-group
+{
+    text-align: initial;
+    margin-left: 31em;
+    padding-bottom: 1.2em;
+}
+
+
+/*element.style {
+}
+.d-bloc .panel button:hover, .l-bloc button:hover {
+    color: rgba(0, 0, 0, .7);
+}*/
+
+.bloc-button
+{
+    margin-left: 31em;
+    width: 67%;
+}
+
+.col-sm-6-p
+{
+    margin-left: 37em;
+    font-size: 18px;
+}
+
+.form-control
+{
+    font-size: 1.5em;
+    width: 660px;
+}
+
+.btn-atomic-tangerine
+{
+    color: #000 !important;
+}
