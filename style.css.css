@@ -11,20 +11,30 @@ main
 
 .navbar-brand img
 {
-    margin-left: 1em;
     height: 3em;
 }
 
-.navbar .nav 
+.site-navigation 
 {
     list-style: none;
-    margin-right: 22em;
+    margin-right: 1em;
+}
+
+.nav li a 
+{
+    padding: 15px 15px;
+    text-decoration: none;
 }
 
 .center-block
 {
     width:100px;
 }
+
+.black-background {
+    
+    background-color: #252525b3;
+  }
 
 .tc-white
 {
@@ -40,11 +50,24 @@ color: #ffffff !important;
 .hero-bloc-text
 {
     font-size: 37px;
+   
 }
-.container
+
+.infos
+{
+    margin-left: 41em;
+}
+
+/*------texte et logo central------*/
+/*.tight-width-whitespace 
+{
+    margin-left: 56em;
+}*/
+
+/*.container
 {
     width: 99%;
-}
+}*/
 
 label
 {
@@ -57,13 +80,6 @@ margin-bottom: 6px;
     margin-left: 31em;
     padding-bottom: 1.2em;
 }
-
-
-/*element.style {
-}
-.d-bloc .panel button:hover, .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}*/
 
 .bloc-button
 {
@@ -86,4 +102,12 @@ margin-bottom: 6px;
 .btn-atomic-tangerine
 {
     color: #000 !important;
+}
+
+@media (min-width: 768px)
+{
+    .site-navigation {
+        right: 205px;
+       
+    }
 }
