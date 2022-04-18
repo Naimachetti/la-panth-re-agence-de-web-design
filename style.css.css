@@ -36,11 +36,6 @@ main
     background-color: #252525b3;
   }
 
-  .text-center 
-{
-    font-weight: bold;
-}
-
 .col-sm-4 h2
 {
     font-size: 1.5em;
@@ -54,21 +49,11 @@ main
     margin-top: -0.7em;
 }
 
-.col-sm-6 p
-{
-    font-size: 0.9em;
-    font-weight: 100;
-}
-
 .col-xs-12 h2
 {
     font-weight: 700;
 }
 
-.tight-width-whitespace {
-    /* max-width: 600px; */
-
-}
 
 .icon-lg {
     font-size: 69px!important;
@@ -79,10 +64,27 @@ main
     color: #ffffff !important;
 }
 
+.tc-white-1
+{
+    font-size: 1em;
+    color: #ffffff !important;
+}
+
 .center-text 
 {
 text-align: center;
 color: #ffffff !important;
+}
+
+
+.text-center
+{
+    font-size: inherit;
+}
+
+.row h2
+{
+    font-size: 22px;
 }
 
 .hero-bloc-text
@@ -128,7 +130,7 @@ margin-bottom: 6px;
 
 .white
 {
-    color: #F3976C!important;
+    color: #fffcfc!important;
 }
 .col-sm-3 i
 {
@@ -145,6 +147,12 @@ margin-bottom: 6px;
     align-content: stretch;
     justify-content: space-between;
     text-decoration: none;
+}
+
+.col-sm-12
+{
+   margin-top: 5em;
+  
 }
 
 @media (min-width: 768px)
