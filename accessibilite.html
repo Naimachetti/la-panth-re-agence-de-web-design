@@ -31,16 +31,16 @@
 						<span class="icon-bar"></span>
 					</button>
 				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav in">
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
 						<li class="cle">
-							<a href="index.html" title="page d'accueil" accesskey="1">Accueil</a>
+							<a href="index.html">Accueil</a>
 						</li>
 						<li class="cle">
-							<a href="contact.html" title="page de contact" accesskey="7">Contact</a>
+							<a href="contact.html">Contact</a>
 						</li>
 						<li class="cle">
-							<a href="accessibilite.html" title="page d'accessibilité" accesskey="0">Accessibilité</a>
+							<a href="accessibilite.html">Accessibilité</a>
 						</li>
 					</ul>
 				</div>
@@ -75,13 +75,19 @@
 					<h1 class="raccourcis">
 						Les raccourcis clavier disponibles sur le site
 					</h1>
-					<div class="div-bouton">
-						<p>Pour acceder à l'accueil rapidement appui sur la touche 1 </p>
-						<button type="button" accesskey="1">Accueil</button>
-						<p>Pour acceder à l'accueil rapidement appui sur la touche 7 </p>
-						<button type="button" accesskey="7">Contact</button>
-						<p>Pour acceder à l'accueil rapidement appui sur la touche 0 </p>
-						<button type="button" accesskey="0">Accessibilité</button><br><br>
+					<div class="div-lien">
+						<em>Pour acceder à une page rapidement appuyer sur la touche concernée.</em><br><br>
+						<ul>
+    						<li>Edge, IE, Chrome, Safari, Opera 15+: [ALT] + <em>accesskey (la touche).</em></li>
+    						<li>Opera prior version 15: [SHIFT] [ESC] + <em>accesskey(la touche).</em></li>
+    						<li>Firefox: [ALT] [SHIFT] + <em>accesskey(la touche).</em></li>
+						</ul>
+						<p class="liens"><em>Appuyer sur la touche <strong>A</strong> pour acceder rapidement à la page</em></p>
+						<a href="index.html" accesskey="A">Accueil</a>
+						<p class="liens"><em>Appuyer sur la touche <strong>B</strong> pour acceder rapidement à la page </em></p>
+						<a href="contact.html" accesskey="B">Contact</a>
+						<p class="liens"><em>Appuyer sur la touche <strong>C</strong> pour acceder rapidement à la page</em></p>
+						<a href="accessibilite.html" accesskey="C">Accessibilité</a>
 					</div>
 				</div> 
 			</div>
@@ -97,28 +103,28 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html" aria-label="lien vers index.html">
+									<a class="social" href="index.html" aria-label="lien vers twitter">
 										<i class="fa fa-twitter icon-md"></i>
 									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html" aria-label="lien vers index.html">
+									<a class="social" href="index.html" aria-label="lien vers facebook">
 										<i class="fa fa-facebook icon-md"></i>
 									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html" aria-label="lien vers index.html">
+									<a class="social" href="index.html" aria-label="lien vers dribble">
 										<i class="fa fa-dribbble icon-md"></i>
 									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html" aria-label="lien vers index.html">
+									<a class="social" href="index.html" aria-label="lien vers instagram">
 										<i class="fa fa-instagram icon-md"></i>
 									</a>
 								</div>
@@ -130,10 +136,10 @@
 		</footer>
 		<!-- Footer - bloc-8 END -->
 	</main>
-<script src="./js/jquery-2.1.0.js" defer></script>
-	<script src="./js/bootstrap.js" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js" defer></script>
+<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js" defer></script>
 </body>
 </html>
