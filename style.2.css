@@ -116,6 +116,10 @@ main {
 
 /* section formulaire*/
 
+.infos h1 {
+    font-size: 3em;
+}
+
 .col-sm-6-p {
     font-size: 18px;
 }
