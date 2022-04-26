@@ -24,8 +24,7 @@ main {
 
 }
 
-a[data-lightbox]:hover::before
-{
+a[data-lightbox]:hover::before {
     margin-left: 104px;
 }
 
@@ -134,9 +133,10 @@ a[data-lightbox]:hover::before
     padding: 18px;
     display: inline-block;
 }
+
 .btn-block {
     display: inline-block;
-  }
+}
 
 .form-group {
     margin-bottom: 9px;
@@ -220,19 +220,22 @@ label {
     .form {
         margin-left: -21em;
     }
-    
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-   
+
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+
         display: inline-block;
-        
+
     }
 
-    a[data-lightbox] 
-    {
-        text-align:inherit;
+    a[data-lightbox] {
+        text-align: inherit;
     }
 
-    
+
 
 }
 
@@ -241,16 +244,19 @@ label {
         margin-left: -21em;
     }
 
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-   
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+
         max-width: 78.265%;
         display: inline-block;
-        
+
     }
 
-    a[data-lightbox] 
-    {
-        text-align:inherit;
+    a[data-lightbox] {
+        text-align: inherit;
     }
 
 }
@@ -266,16 +272,19 @@ label {
     }
 
 
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-   
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+
         max-width: 78.265%;
         display: inline-block;
-        
+
     }
 
-    a[data-lightbox] 
-    {
-        text-align:inherit;
+    a[data-lightbox] {
+        text-align: inherit;
     }
 
 
