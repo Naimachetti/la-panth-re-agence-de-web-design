@@ -24,6 +24,11 @@ main {
 
 }
 
+a[data-lightbox]:hover::before
+{
+    margin-left: 104px;
+}
+
 .cle {
     line-height: 0em;
 }
@@ -36,9 +41,9 @@ main {
 .btn-atomic-tangerine {
     color: #000 !important;
     border-radius: 9px;
-    padding: 20px 47px 20px 47px;
+    padding: 20px 40px 20px 40px;
     border-radius: 2em;
-    width: 76%;
+    width: auto;
 }
 
 
@@ -48,7 +53,7 @@ main {
 }
 
 .cta-hero {
-    font-size: 1.3em;
+    font-size: 20px;
 }
 
 /*SECTION SERVICE*/
@@ -117,7 +122,7 @@ main {
 /* section formulaire*/
 
 .infos h1 {
-    font-size: 3em;
+    font-size: 2.9em;
 }
 
 .col-sm-6-p {
@@ -127,7 +132,11 @@ main {
 .form-control {
     border-color: #8d8686;
     padding: 18px;
+    display: inline-block;
 }
+.btn-block {
+    display: inline-block;
+  }
 
 .form-group {
     margin-bottom: 9px;
@@ -140,14 +149,14 @@ main {
 label {
     display: flex;
     margin-left: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
 }
 
 /*FOOTER*/
 
 .bgc-atomic-tangerine {
     background-color: #E88D54;
-    padding: 2em;
     padding-bottom: 0em;
 }
 
@@ -211,9 +220,10 @@ label {
     .form {
         margin-left: -21em;
     }
+    
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
    
-        max-width: 78.265%;
+        display: inline-block;
         
     }
 
@@ -226,13 +236,15 @@ label {
 
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .form {
         margin-left: -21em;
     }
+
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
    
         max-width: 78.265%;
+        display: inline-block;
         
     }
 
@@ -257,6 +269,7 @@ label {
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
    
         max-width: 78.265%;
+        display: inline-block;
         
     }
 
