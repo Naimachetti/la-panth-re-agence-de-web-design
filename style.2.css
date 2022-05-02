@@ -24,6 +24,7 @@ main {
 
 }
 
+
 a[data-lightbox]:hover::before {
     margin-left: 104px;
 }
@@ -72,13 +73,18 @@ a[data-lightbox]:hover::before {
 }
 
 .row h2 {
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .icon-lg {
     font-size: 69px !important;
 }
 
+p
+{
+    font-size: 18px;
+}
 
 /* section what-i-do */
 
@@ -88,7 +94,6 @@ a[data-lightbox]:hover::before {
 }
 
 .col-xs-12 p {
-    font-size: 17px;
     font-style: italic;
     margin-bottom: 0;
     margin-top: -0.7em;
@@ -108,6 +113,11 @@ a[data-lightbox]:hover::before {
     font-weight: bold;
     font-size: 1em;
 
+}
+
+.row-col-sm-12
+{
+  color: #fff !important;
 }
 
 
@@ -153,6 +163,8 @@ label {
     font-size: 1.4em;
 }
 
+
+
 /*FOOTER*/
 
 .bgc-atomic-tangerine {
@@ -161,7 +173,7 @@ label {
 }
 
 .text-center {
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.2em;
 }
 
@@ -207,9 +219,18 @@ label {
     font-size: 1.2em;
 }
 
-input:focus, a:focus, .a:focus {
-    color: red;
-  }
+input:focus
+{
+    color: blue;
+}
+
+nav ul li a:focus{
+	border-bottom: 4px solid 
+#999;
+
+
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -238,7 +259,7 @@ input:focus, a:focus, .a:focus {
         text-align: inherit;
     }
 
-
+  
 
 }
 
@@ -262,6 +283,7 @@ input:focus, a:focus, .a:focus {
         text-align: inherit;
     }
 
+ 
 }
 
 @media (max-width: 767px) {
@@ -289,6 +311,7 @@ input:focus, a:focus, .a:focus {
     a[data-lightbox] {
         text-align: inherit;
     }
+
 
 
 }
